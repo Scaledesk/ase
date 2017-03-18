@@ -31,7 +31,7 @@ class LoginForm(forms.Form):
 class Register (forms.Form) :
        email = forms.EmailField()
        dipp = forms.CharField(max_length="15")
-       companyName = forms.CharField(max_length=100)
+       companyName = forms.CharField(max_length=100,required=True)
        designatePerson = forms.CharField(max_length=50)
        founderCofounder = forms.CharField(max_length=50)
        website = forms.CharField(max_length=50)

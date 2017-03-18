@@ -45,14 +45,14 @@
 </section>
 
 
-
+    
 <div id="member-profile-section">
-
+       
         <br>
 
         <div class="container">
-
-           <form action="/update/" method="POST" id="register-form" enctype="multipart/form-data">
+            <span class="text-center">{{msg}}</span>
+           <form action="/update/" method="POST" id="register-form" enctype="multipart/form-data" onsubmit="return formValidation()">
                     {% csrf_token %}
 
 
@@ -66,6 +66,9 @@
                 <div class="form-group">
                     <label class="p-heading" for="designateperson">Designate Person</label>
                     {{profile.designatePerson}}
+
+                   <div id="id_designatePersonError"></div>
+
                     <!--<input type="text" name="designatePerson" class="form-control" id="designateperson" placeholder="Designate Person">-->
                 </div>
 </div>
@@ -80,6 +83,10 @@
                                 <div class="form-group">
                             <label  class="p-heading"  for="mobile1">Mobile</label>
                              {{profile.mobile}}
+                             <div id="id_mobileError"></div>
+
+ 
+  
                             <!--<input type="number"  name="mobile" class="form-control" id="mobile1" placeholder="Mobile">-->
                                </div>
                             </div>
@@ -88,6 +95,7 @@
                                 <div class="form-group">
                             <label  class="p-heading"  for="pincode1">PINCODE</label>
                                     {{profile.pincode}}
+                                    <div id="id_pincodeError"></div>
                             <!--<input type="number" name="pincode" class="form-control" id="pincode1" placeholder="PINCODE">-->
                                 </div>
                             </div>
@@ -97,6 +105,8 @@
                         <div class="form-group">
                             <label  class="p-heading"  for="address1">  Address </label>
                             {{profile.address}}
+
+
                             <!--<input type="text" name="address" class="form-control" id="address1" placeholder="Address">-->
                         </div>
 
@@ -106,6 +116,9 @@
                         <div class="form-group">
                             <label class="p-heading"  for="city1">City</label>
                             {{profile.city}}
+                             <div id="id_cityError"></div>
+
+  
                             <!--<input type="text" name="city" class="form-control" id="city1" placeholder="City">-->
                         </div>
                             </div>
@@ -115,8 +128,12 @@
                         <div class="form-group">
                             <label class="p-heading"  for="State1">State</label>
                             {{profile.state}}
+                            <div id="id_stateError"></div>
+
+ 
                             <!--<input type="text" name="state" class="form-control" id="State1" placeholder="State">-->
-                        </div>
+                        </div>                     
+
 
 
                             </div>
@@ -125,7 +142,16 @@
                             <div class="form-group">
                             <label class="p-heading"  for="ProfileImage">Profile Image</label>
                             {{profile.profileImage}}
-                            <!--<input type="text" name="state" class="form-control" id="State1" placeholder="State">-->
+                            <div id="id_profileImageError"></div>
+                             </div>
+                              </div>
+
+                           <div class="col-md-6">
+                            <div class="form-group">
+                            <label class="p-heading"  for="ProfileImage">Profile type</label>
+                            {{profile.profileType}}
+                            <div id="id_profileTypeError"></div>
+
                               </div>
                             </div>
                         </div> <br><br>
@@ -136,7 +162,7 @@
 
                 </div>
 
-                <div class="col-md-6">
+                    <div class="col-md-6">
 
                 <div class="card-profile">
 
@@ -145,6 +171,10 @@
                 <div class="form-group">
                     <label class="p-heading"  for="companyname">Company Name</label>
                     {{profile.companyName}}
+                    <div id="id_companyNameError"></div>
+  
+  
+  
                     <!--<input type="text" name="companyName" class="form-control" id="companyname" placeholder="Company Name">-->
                 </div>
 
@@ -153,12 +183,19 @@
                 <div class="form-group">
                     <label class="p-heading"  for="founder1"> Founder/ Co-Founder</label>
                     {{profile.founderCofounder}}
+                    <div id="id_founderCofounderError"></div>
+
+  
+ 
                     <!--<input type="text" name="founder" class="form-control" id="founder1" placeholder="Founder/ Co-Founder">-->
                 </div>
 
                 <div class="form-group">
                     <label class="p-heading"  for="website1"> Website</label>
                     {{profile.website}}
+                    <div id="id_websiteError"></div>
+
+   
                     <!--<input type="text" name="website" class="form-control" id="website1" placeholder="Website">-->
                 </div>
 
@@ -167,6 +204,8 @@
                     <label class="p-heading"> Industry/ Sector </label>
                     <!--<input type="text" class="form-control" id="sector1" placeholder="Industry/ Sector">-->
                      {{profile.industry}}
+                     <div id="id_industryError"></div>
+
                     <!--<select class="form-control" id="sector" name="industry">-->
                         <!--<option>1</option>-->
                         <!--<option>2</option>-->
@@ -180,6 +219,8 @@
                     <label class="p-heading" >PROVIDE support and help for</label>
                     <!--<input type="text" class="form-control" id="providesupport" placeholder="Email">-->
                     {{profile.provideSupport}}
+                    <div id="id_provideSupportError"></div>
+      
                     <!--<input type="text" id="providesupport" name="providesupport" value="Amsterdam,Washington" data-role="tagsinput" />-->
                     <script>
                         var citynames = new Bloodhound({
@@ -210,6 +251,7 @@
                         <label class="p-heading" >NEED Support And Help For</label>
                         <!--<input type="text" class="form-control" id="providesupport" placeholder="Email">-->
                         {{profile.needSupport}}
+                     <div id="id_needSupportError"></div>
                         <!--<input type="text" id="needsupport" name="needsupport" value="Amsterdam,Washington" data-role="tagsinput" />-->
                         <script>
                             var citynames = new Bloodhound({
@@ -309,6 +351,178 @@ $(document).ready(function(){
 
 });
 </script>
+<script type="text/javascript">
+
+  
+function formValidation(obj){
+ // alert(31654);
+  var id_needSupport      =document.getElementById('id_needSupport').value;
+  // alert(1);
+  var id_provideSupport   =document.getElementById('id_provideSupport').value;
+  var id_profileImage     =document.getElementById('id_profileImage').value;
+  var id_industry         =document.getElementById('id_industry').value;
+  var id_website          =document.getElementById('id_website').value;
+  var id_founderCofounder =document.getElementById('id_founderCofounder').value;
+  var id_state            =document.getElementById('id_state').value;
+  var id_city             =document.getElementById('id_city').value;
+  var id_pincode          =document.getElementById('id_pincode').value;
+  var id_mobile           =document.getElementById('id_mobile').value;
+  // var id_profileType      =document.getElementById('id_profileType').value;
+  var id_password         =document.getElementById('id_password').value;
+  var id_designatePerson  =document.getElementById('id_designatePerson').value;
+  var id_companyName      =document.getElementById('id_companyName').value;
+if (id_designatePerson !== ""){
+       // alert(1);
+
+     if(id_companyName !== ""){
+      if(id_founderCofounder !== ""){
+        if(id_website !== ""){
+           if(id_profileImage !== ""){
+            if(id_provideSupport !== ""){
+             if(id_needSupport !== ""){
+              if(id_mobile !== ""){
+                if(id_pincode !== ""){
+                 if(id_city !== ""){
+                    if(id_state !==""){
+                      return true;
+
+                    }else{
+                     document.getElementById("id_cityError").innerHTML = "<span style='color:red;'>Please file in this field. </span>";
+                         document.getElementById("id_cityError").remove();
+
+            return false;
+
+                    }
+
+
+                 }else{
+
+                    document.getElementById("id_cityError").innerHTML = "<span style='color:red;'>Please file in this field. </span>";
+                     document.getElementById("id_pincodeError").remove();
+
+            return false;
+
+                 } 
+
+
+
+                }else{
+                    document.getElementById("id_pincodeError").innerHTML = "<span style='color:red;'>Please file in this field. </span>";
+                             document.getElementById("id_mobileError").remove();
+            return false;
+
+                }
+
+              }else{
+                document.getElementById("id_mobileError").innerHTML = "<span style='color:red;'>Please file in this field. </span>";
+                              document.getElementById("id_needSupportError").remove();
+
+            return false;
+
+              }
+
+             }else{
+                document.getElementById("id_needSupportError").innerHTML = "<span style='color:red;'>Please file in this field. </span>";
+              document.getElementById("id_provideSupportError").remove();
+
+            return false;
+
+             }
+
+
+            }else{
+                
+                document.getElementById("id_provideSupportError").innerHTML = "<span style='color:red;'>Please file in this field. </span>";
+                                              document.getElementById("id_profileImageError").remove();
+
+            return false;
+
+            }
+               
+           }else{
+               document.getElementById("id_profileImageError").innerHTML = "<span style='color:red;'>Please file in this field. </span>";
+                              document.getElementById("id_websiteError").remove();
+
+            return false;
+
+               
+
+           }
+        }else{
+          document.getElementById("id_websiteError").innerHTML = "<span style='color:red;'>Please file in this field. </span>";
+               document.getElementById("id_founderCofounderError").remove();
+                         
+       return false;
+
+
+        }
+
+
+
+      }else{
+        document.getElementById("id_founderCofounderError").innerHTML = "<span style='color:red;'>Please file in this field. </span>";
+                        document.getElementById("id_companyNameError").remove();
+                        
+
+ 
+       return false;
+
+
+      }
+
+
+     }else{
+
+        document.getElementById("id_companyNameError").innerHTML = "<span style='color:red;'>Please file in this field. </span>";
+                        document.getElementById("id_designatePersonError").remove();
+
+
+       return false;
+    }
+
+
+
+   
+
+}else{
+    document.getElementById("id_designatePersonError").innerHTML = "<span style='color:red;'>Please file in this field. </span>";
+       return false;
+   }
+
+  //   <div id="id_needSupportError"></div>
+  //   <div id="id_provideSupportError"></div>
+  //     <div id="id_profileImageError"></div>
+
+  // <div id="id_industryError"></div>
+
+  // <div id="id_websiteError"></div>
+
+  // <div id="id_founderCofounderError"></div>
+
+  // <div id="id_stateError"></div>
+
+  // <div id="id_cityError"></div>
+
+  // <div id="id_pincodeError"></div>
+
+  // <div id="id_mobileError"></div>
+
+  // <div id="id_profileTypeError"></div>
+
+  // <div id="id_designatePersonError"></div>
+
+  // <div id="id_companyNameError"></div>
+
+
+
+
+
+
+
+}
+
+</script>
+
 
 
 

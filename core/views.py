@@ -120,8 +120,9 @@ def CreateUser(request):
 
 
                     except Exception as e:
+                        register_form = Register(request.POST.copy())
                         return render(request, 'register.html',
-                                      {"result": e})
+                                      {"result":'your profile has been already registered',"register":register_form})
 
                         # return render(request, 'register.html',{"result": "your profile has been already registered","register":register_form})
 
@@ -203,9 +204,10 @@ def dashboard(request):
                                  , "facebook": profileData.facebook, "linkedin": profileData.linkedin,
                               "twitter": profileData.twitter
                                  , "industry": profileData.industry, "provideSupport": profileData.provideSupport,
-                              "needSupport": profileData.needSupport,"email":userdata.email,"dipp":userdata.dipp})
+                              "needSupport": profileData.needSupport,
+                              "email":userdata.email,"dipp":userdata.dipp,"profileType":profileData.profileType})
 
-    # profileData = Profile.objects.get(userdipp=UserDipp.objects.get(user=request.user))
+    # profileData = Profile.objects.get(userdipp=UserDipp.objects.get(user=request.user)) 
     # pprint(userdata.email)
     # pprint(userdata.dipp)
     return render(request, "dashboard.html",{'profile':profile})
@@ -219,7 +221,7 @@ def update(request):
                               "website":profileData.website, "mobile":profileData.mobile, "address":profileData.address
                                  , "city": profileData.city, "state":profileData.state, "pincode":profileData.pincode
                                  , "facebook": profileData.facebook, "linkedin":profileData.linkedin, "twitter":profileData.twitter
-                                 , "industry": profileData.industry, "provideSupport":profileData.provideSupport, "needSupport":profileData.needSupport})
+                                 , "industry": profileData.industry,"profileType": profileData.profileType, "provideSupport":profileData.provideSupport, "needSupport":profileData.needSupport})
 
     if request.method == 'POST':
         try:
@@ -228,6 +230,7 @@ def update(request):
             data = request.POST
             profileImage = request.FILES['profileImage']
             fs = FileSystemStorage()
+            pprint(fs)
             profileImage = fs.save(profileImage.name, profileImage)
             profileImage_url = fs.url(profileImage)
 
@@ -243,17 +246,19 @@ def update(request):
             up.profileImage=profileImage_url
             up.save()
 
-            return redirect("/dashboard/")
+            # return redirect("/dashboard/")
+            return render(request, "dashboard.html", 
+              {"profile": updateProfile, "msg":"Your profile has been successfully updated."})
 
-            # return render(request, "profileUpdate.html", {'profile':updateProfile,"result": "Your profile has been Updated successfully"})
+            # return render(request, "profileUpdate.html", {'profile':updateProfile,"result": "Your profile has been successfully Updated. "})
 
 
         except Exception as e:
 
-            return render(request, "profileUpdate.html", {"profile": profileData, "msg": e})
+            return render(request, "dashboard.html", {"profile": updateProfile, "msg": "Some error occurred!"})
 
 
-    else :return render(request, "profileUpdate.html",{'profile':updateProfile})
+    else :return render(request, "dashboard.html",{'profile':updateProfile})
 
 @login_required(login_url="/login/")
 def project(request):
@@ -386,7 +391,7 @@ def QuestionView(request):
 #
 
 
-# @login_required(login_url="/login/")
+@login_required(login_url="/login/")
 def Discussions(request):
     # ans = Answer()
 
@@ -508,6 +513,7 @@ def SendAnswer(request):
     else:
       return redirect('/discussions/')
 
+@login_required(login_url="/login/")
 def QuestionDelete(request, id):
      
      questionData = Question.objects.get(pk=id)
@@ -565,6 +571,7 @@ def Home(request):
 def Index(request):
     return render (request,"index.html")
 
+@login_required(login_url="/login/")
 def ProfileList(request):
 
     profileData=Profile.objects.all()
@@ -575,7 +582,7 @@ def ProfileList(request):
 
 
 
-
+@login_required(login_url="/login/")
 def ProfileDetails(request,id):
 
 
@@ -596,6 +603,7 @@ def mailSend(request):
     email.send()
     return render (request,"index.html")
 
+@login_required(login_url="/login/")
 def Search(request):
     if request.method == "POST":
         type = request.POST['select_type']
