@@ -71,7 +71,9 @@ def CreateUser(request):
                     email= request.POST['email']
                     dipp = request.POST['dipp']
                     password=request.POST['password']
-                    # pprint(registerData)
+                    companyName = request.POST['companyName']
+
+    # pprint(registerData)
                     # response_data = {}
                     # pprint(dipp)
                     # pprint(email)
@@ -115,8 +117,16 @@ def CreateUser(request):
 
                             user = authenticate(username=email, password=password)
                             auth.login(request, user)
+                            try:
+                                email = EmailMessage('Thank you for getting in touch!', 'Ase', to=[email])
+                                email.send()
+                                email = EmailMessage('User Register', companyName, to=['nitesh@scaledesk.com'])
+                                email.send()
+                                return redirect('/project/')
 
-                            return redirect('/project/')
+                            except Exception as e:
+
+                             return redirect('/project/')
 
 
                     except Exception as e:

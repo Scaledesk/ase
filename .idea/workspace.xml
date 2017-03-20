@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2bd97849-3aef-4c79-83c3-91f425216f6a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/apple-touch-icon.png" afterPath="$PROJECT_DIR$/static/apple-touch-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/banner.jpg" afterPath="$PROJECT_DIR$/static/banner.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/favicon.ico" afterPath="$PROJECT_DIR$/static/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/fonts/davidbd.ttf" afterPath="$PROJECT_DIR$/static/fonts/davidbd.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/hero-img.jpg" afterPath="$PROJECT_DIR$/static/hero-img.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/2.png" afterPath="$PROJECT_DIR$/static/img/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/Cornell.png" afterPath="$PROJECT_DIR$/static/img/Cornell.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/about.png" afterPath="$PROJECT_DIR$/static/img/about.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/cli1.png" afterPath="$PROJECT_DIR$/static/img/cli1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/cli2.png" afterPath="$PROJECT_DIR$/static/img/cli2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/cli3.png" afterPath="$PROJECT_DIR$/static/img/cli3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/cli4.png" afterPath="$PROJECT_DIR$/static/img/cli4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/doc" afterPath="$PROJECT_DIR$/static/img/doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/gal1.jpg" afterPath="$PROJECT_DIR$/static/img/gal1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/gal2.jpg" afterPath="$PROJECT_DIR$/static/img/gal2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/gal3.jpg" afterPath="$PROJECT_DIR$/static/img/gal3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/hero-img.jpg" afterPath="$PROJECT_DIR$/static/img/hero-img.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/hero-info.png" afterPath="$PROJECT_DIR$/static/img/hero-info.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/images.jpg" afterPath="$PROJECT_DIR$/static/img/images.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/login.jpg" afterPath="$PROJECT_DIR$/static/img/login.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/logo.png" afterPath="$PROJECT_DIR$/static/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/pdf.png" afterPath="$PROJECT_DIR$/static/img/pdf.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/ppt.png" afterPath="$PROJECT_DIR$/static/img/ppt.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/signup.jpg" afterPath="$PROJECT_DIR$/static/img/signup.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/solomo.png" afterPath="$PROJECT_DIR$/static/img/solomo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/team.png" afterPath="$PROJECT_DIR$/static/img/team.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/test.png" afterPath="$PROJECT_DIR$/static/img/test.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/tile-wide.png" afterPath="$PROJECT_DIR$/static/tile-wide.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/tile.png" afterPath="$PROJECT_DIR$/static/tile.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/apple-touch-icon.png" afterPath="$PROJECT_DIR$/static_files/apple-touch-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/banner.jpg" afterPath="$PROJECT_DIR$/static_files/banner.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/favicon.ico" afterPath="$PROJECT_DIR$/static_files/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/fonts/davidbd.ttf" afterPath="$PROJECT_DIR$/static_files/fonts/davidbd.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/static_files/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/static_files/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/static_files/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/hero-img.jpg" afterPath="$PROJECT_DIR$/static_files/hero-img.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/2.png" afterPath="$PROJECT_DIR$/static_files/img/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/Cornell.png" afterPath="$PROJECT_DIR$/static_files/img/Cornell.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/about.png" afterPath="$PROJECT_DIR$/static_files/img/about.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/cli1.png" afterPath="$PROJECT_DIR$/static_files/img/cli1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/cli2.png" afterPath="$PROJECT_DIR$/static_files/img/cli2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/cli3.png" afterPath="$PROJECT_DIR$/static_files/img/cli3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/cli4.png" afterPath="$PROJECT_DIR$/static_files/img/cli4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/doc" afterPath="$PROJECT_DIR$/static_files/img/doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/gal1.jpg" afterPath="$PROJECT_DIR$/static_files/img/gal1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/gal2.jpg" afterPath="$PROJECT_DIR$/static_files/img/gal2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/gal3.jpg" afterPath="$PROJECT_DIR$/static_files/img/gal3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/hero-img.jpg" afterPath="$PROJECT_DIR$/static_files/img/hero-img.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/hero-info.png" afterPath="$PROJECT_DIR$/static_files/img/hero-info.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/images.jpg" afterPath="$PROJECT_DIR$/static_files/img/images.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/login.jpg" afterPath="$PROJECT_DIR$/static_files/img/login.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/logo.png" afterPath="$PROJECT_DIR$/static_files/img/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/pdf.png" afterPath="$PROJECT_DIR$/static_files/img/pdf.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/ppt.png" afterPath="$PROJECT_DIR$/static_files/img/ppt.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/signup.jpg" afterPath="$PROJECT_DIR$/static_files/img/signup.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/solomo.png" afterPath="$PROJECT_DIR$/static_files/img/solomo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/team.png" afterPath="$PROJECT_DIR$/static_files/img/team.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/img/test.png" afterPath="$PROJECT_DIR$/static_files/img/test.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/tile-wide.png" afterPath="$PROJECT_DIR$/static_files/tile-wide.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/tile.png" afterPath="$PROJECT_DIR$/static_files/tile.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/community/__init__.py" afterPath="$PROJECT_DIR$/community/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/community/settings.py" afterPath="$PROJECT_DIR$/community/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/community/urls.py" afterPath="$PROJECT_DIR$/community/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/community/wsgi.py" afterPath="$PROJECT_DIR$/community/wsgi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/__init__.py" afterPath="$PROJECT_DIR$/core/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/admin.py" afterPath="$PROJECT_DIR$/core/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/apps.py" afterPath="$PROJECT_DIR$/core/apps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/forms.py" afterPath="$PROJECT_DIR$/core/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/core/migrations/0001_initial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0002_auto_20170114_1258.py" afterPath="$PROJECT_DIR$/core/migrations/0002_auto_20170114_1258.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0003_userdipp.py" afterPath="$PROJECT_DIR$/core/migrations/0003_userdipp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0004_profile.py" afterPath="$PROJECT_DIR$/core/migrations/0004_profile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0005_auto_20170123_1256.py" afterPath="$PROJECT_DIR$/core/migrations/0005_auto_20170123_1256.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0006_auto_20170124_0732.py" afterPath="$PROJECT_DIR$/core/migrations/0006_auto_20170124_0732.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0007_auto_20170124_0800.py" afterPath="$PROJECT_DIR$/core/migrations/0007_auto_20170124_0800.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0008_auto_20170124_0825.py" afterPath="$PROJECT_DIR$/core/migrations/0008_auto_20170124_0825.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0009_auto_20170124_0915.py" afterPath="$PROJECT_DIR$/core/migrations/0009_auto_20170124_0915.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0010_auto_20170124_1054.py" afterPath="$PROJECT_DIR$/core/migrations/0010_auto_20170124_1054.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0011_auto_20170124_1131.py" afterPath="$PROJECT_DIR$/core/migrations/0011_auto_20170124_1131.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0012_remove_userdipp_user.py" afterPath="$PROJECT_DIR$/core/migrations/0012_remove_userdipp_user.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0013_userdipp_user.py" afterPath="$PROJECT_DIR$/core/migrations/0013_userdipp_user.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0014_remove_userdipp_user.py" afterPath="$PROJECT_DIR$/core/migrations/0014_remove_userdipp_user.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0015_userdipp_user.py" afterPath="$PROJECT_DIR$/core/migrations/0015_userdipp_user.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0016_auto_20170124_1137.py" afterPath="$PROJECT_DIR$/core/migrations/0016_auto_20170124_1137.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0017_auto_20170124_1144.py" afterPath="$PROJECT_DIR$/core/migrations/0017_auto_20170124_1144.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0018_auto_20170124_1145.py" afterPath="$PROJECT_DIR$/core/migrations/0018_auto_20170124_1145.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0019_project.py" afterPath="$PROJECT_DIR$/core/migrations/0019_project.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0020_auto_20170127_0725.py" afterPath="$PROJECT_DIR$/core/migrations/0020_auto_20170127_0725.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0021_project_aboutproductcompany.py" afterPath="$PROJECT_DIR$/core/migrations/0021_project_aboutproductcompany.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0022_auto_20170127_0742.py" afterPath="$PROJECT_DIR$/core/migrations/0022_auto_20170127_0742.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0023_auto_20170127_0920.py" afterPath="$PROJECT_DIR$/core/migrations/0023_auto_20170127_0920.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0024_question.py" afterPath="$PROJECT_DIR$/core/migrations/0024_question.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0025_auto_20170127_1033.py" afterPath="$PROJECT_DIR$/core/migrations/0025_auto_20170127_1033.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0026_auto_20170127_1051.py" afterPath="$PROJECT_DIR$/core/migrations/0026_auto_20170127_1051.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0027_auto_20170127_1232.py" afterPath="$PROJECT_DIR$/core/migrations/0027_auto_20170127_1232.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0028_answer.py" afterPath="$PROJECT_DIR$/core/migrations/0028_answer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0029_auto_20170301_0830.py" afterPath="$PROJECT_DIR$/core/migrations/0029_auto_20170301_0830.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0030_project_projectname.py" afterPath="$PROJECT_DIR$/core/migrations/0030_project_projectname.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0031_auto_20170301_1220.py" afterPath="$PROJECT_DIR$/core/migrations/0031_auto_20170301_1220.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0032_auto_20170301_1238.py" afterPath="$PROJECT_DIR$/core/migrations/0032_auto_20170301_1238.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0033_auto_20170301_1258.py" afterPath="$PROJECT_DIR$/core/migrations/0033_auto_20170301_1258.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0034_auto_20170301_1300.py" afterPath="$PROJECT_DIR$/core/migrations/0034_auto_20170301_1300.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0035_auto_20170302_0540.py" afterPath="$PROJECT_DIR$/core/migrations/0035_auto_20170302_0540.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0036_auto_20170302_0553.py" afterPath="$PROJECT_DIR$/core/migrations/0036_auto_20170302_0553.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0037_auto_20170302_0751.py" afterPath="$PROJECT_DIR$/core/migrations/0037_auto_20170302_0751.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0038_auto_20170302_1247.py" afterPath="$PROJECT_DIR$/core/migrations/0038_auto_20170302_1247.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0039_auto_20170303_0532.py" afterPath="$PROJECT_DIR$/core/migrations/0039_auto_20170303_0532.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0040_auto_20170303_0624.py" afterPath="$PROJECT_DIR$/core/migrations/0040_auto_20170303_0624.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0041_auto_20170303_0626.py" afterPath="$PROJECT_DIR$/core/migrations/0041_auto_20170303_0626.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0042_auto_20170303_0742.py" afterPath="$PROJECT_DIR$/core/migrations/0042_auto_20170303_0742.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0043_profile_profiletype.py" afterPath="$PROJECT_DIR$/core/migrations/0043_profile_profiletype.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0044_auto_20170304_1054.py" afterPath="$PROJECT_DIR$/core/migrations/0044_auto_20170304_1054.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0045_auto_20170306_0617.py" afterPath="$PROJECT_DIR$/core/migrations/0045_auto_20170306_0617.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0046_auto_20170306_0700.py" afterPath="$PROJECT_DIR$/core/migrations/0046_auto_20170306_0700.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0047_auto_20170306_0702.py" afterPath="$PROJECT_DIR$/core/migrations/0047_auto_20170306_0702.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0048_question_category.py" afterPath="$PROJECT_DIR$/core/migrations/0048_question_category.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0049_remove_category_categoryfk.py" afterPath="$PROJECT_DIR$/core/migrations/0049_remove_category_categoryfk.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0050_auto_20170306_0940.py" afterPath="$PROJECT_DIR$/core/migrations/0050_auto_20170306_0940.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0051_auto_20170306_1149.py" afterPath="$PROJECT_DIR$/core/migrations/0051_auto_20170306_1149.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0052_profile_profileimage.py" afterPath="$PROJECT_DIR$/core/migrations/0052_profile_profileimage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0053_answer_profile.py" afterPath="$PROJECT_DIR$/core/migrations/0053_answer_profile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/0054_answer_date.py" afterPath="$PROJECT_DIR$/core/migrations/0054_answer_date.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/migrations/__init__.py" afterPath="$PROJECT_DIR$/core/migrations/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/models.py" afterPath="$PROJECT_DIR$/core/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/Answer.html" afterPath="$PROJECT_DIR$/core/templates/Answer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/Question.html" afterPath="$PROJECT_DIR$/core/templates/Question.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/UserQuestionList.html" afterPath="$PROJECT_DIR$/core/templates/UserQuestionList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/base.html" afterPath="$PROJECT_DIR$/core/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/dashboard-setting.html" afterPath="$PROJECT_DIR$/core/templates/dashboard-setting.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/dashboard.html" afterPath="$PROJECT_DIR$/core/templates/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/index.html" afterPath="$PROJECT_DIR$/core/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/login.html" afterPath="$PROJECT_DIR$/core/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/memberDetails.html" afterPath="$PROJECT_DIR$/core/templates/memberDetails.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/memberList.html" afterPath="$PROJECT_DIR$/core/templates/memberList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/profileUpdate.html" afterPath="$PROJECT_DIR$/core/templates/profileUpdate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/project.html" afterPath="$PROJECT_DIR$/core/templates/project.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/questionList.html" afterPath="$PROJECT_DIR$/core/templates/questionList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/register.html" afterPath="$PROJECT_DIR$/core/templates/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/signup.html" afterPath="$PROJECT_DIR$/core/templates/signup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/tests.py" afterPath="$PROJECT_DIR$/core/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/urls.py" afterPath="$PROJECT_DIR$/core/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/views.py" afterPath="$PROJECT_DIR$/core/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reqirement.txt" afterPath="$PROJECT_DIR$/reqirement.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/base.css" afterPath="$PROJECT_DIR$/static/admin/css/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/changelists.css" afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/dashboard.css" afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/fonts.css" afterPath="$PROJECT_DIR$/static/admin/css/fonts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/forms.css" afterPath="$PROJECT_DIR$/static/admin/css/forms.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/login.css" afterPath="$PROJECT_DIR$/static/admin/css/login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/rtl.css" afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/widgets.css" afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" afterPath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/fonts/README.txt" afterPath="$PROJECT_DIR$/static/admin/fonts/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/LICENSE" afterPath="$PROJECT_DIR$/static/admin/img/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/README.txt" afterPath="$PROJECT_DIR$/static/admin/img/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" afterPath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-no.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-no.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" afterPath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/search.svg" afterPath="$PROJECT_DIR$/static/admin/img/search.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" afterPath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" afterPath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/SelectBox.js" afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/actions.js" afterPath="$PROJECT_DIR$/static/admin/js/actions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/actions.min.js" afterPath="$PROJECT_DIR$/static/admin/js/actions.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/calendar.js" afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/collapse.js" afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/collapse.min.js" afterPath="$PROJECT_DIR$/static/admin/js/collapse.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/core.js" afterPath="$PROJECT_DIR$/static/admin/js/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/inlines.js" afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/inlines.min.js" afterPath="$PROJECT_DIR$/static/admin/js/inlines.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/jquery.init.js" afterPath="$PROJECT_DIR$/static/admin/js/jquery.init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.js" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/timeparse.js" afterPath="$PROJECT_DIR$/static/admin/js/timeparse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/urlify.js" afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap-tagsinput.css" afterPath="$PROJECT_DIR$/static/css/bootstrap-tagsinput.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/static/css/bootstrap.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/editor.css" afterPath="$PROJECT_DIR$/static/css/editor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/jquery.steps.css" afterPath="$PROJECT_DIR$/static/css/jquery.steps.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/login.css" afterPath="$PROJECT_DIR$/static/css/login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/bootstrap-tagsinput.js" afterPath="$PROJECT_DIR$/static/js/bootstrap-tagsinput.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/editor.js" afterPath="$PROJECT_DIR$/static/js/editor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/jquery.steps.min.js" afterPath="$PROJECT_DIR$/static/js/jquery.steps.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/login.js" afterPath="$PROJECT_DIR$/static/js/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/main.js" afterPath="$PROJECT_DIR$/static/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/vendor/bootstrap.js" afterPath="$PROJECT_DIR$/static/js/vendor/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/vendor/bootstrap.min.js" afterPath="$PROJECT_DIR$/static/js/vendor/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/vendor/jquery-1.11.2.min.js" afterPath="$PROJECT_DIR$/static/js/vendor/jquery-1.11.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js" afterPath="$PROJECT_DIR$/static/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/vendor/npm.js" afterPath="$PROJECT_DIR$/static/js/vendor/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/css/bootstrap-tagsinput.css" afterPath="$PROJECT_DIR$/static_files/css/bootstrap-tagsinput.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/static_files/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/static_files/css/bootstrap-theme.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/static_files/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/css/bootstrap.css" afterPath="$PROJECT_DIR$/static_files/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/static_files/css/bootstrap.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static_files/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/css/editor.css" afterPath="$PROJECT_DIR$/static_files/css/editor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/css/jquery.steps.css" afterPath="$PROJECT_DIR$/static_files/css/jquery.steps.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/css/login.css" afterPath="$PROJECT_DIR$/static_files/css/login.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/css/main.css" afterPath="$PROJECT_DIR$/static_files/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/static_files/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/js/bootstrap-tagsinput.js" afterPath="$PROJECT_DIR$/static_files/js/bootstrap-tagsinput.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/js/editor.js" afterPath="$PROJECT_DIR$/static_files/js/editor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/js/jquery.steps.min.js" afterPath="$PROJECT_DIR$/static_files/js/jquery.steps.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/js/login.js" afterPath="$PROJECT_DIR$/static_files/js/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/js/main.js" afterPath="$PROJECT_DIR$/static_files/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/js/vendor/bootstrap.js" afterPath="$PROJECT_DIR$/static_files/js/vendor/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/js/vendor/bootstrap.min.js" afterPath="$PROJECT_DIR$/static_files/js/vendor/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/js/vendor/jquery-1.11.2.min.js" afterPath="$PROJECT_DIR$/static_files/js/vendor/jquery-1.11.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js" afterPath="$PROJECT_DIR$/static_files/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/js/vendor/npm.js" afterPath="$PROJECT_DIR$/static_files/js/vendor/npm.js" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="47" />
+    <option name="y" value="64" />
+    <option name="width" value="1309" />
+    <option name="height" value="704" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2bd97849-3aef-4c79-83c3-91f425216f6a" name="Default" comment="" />
+      <created>1489990179854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1489990179854</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="47" y="64" width="1309" height="704" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2628662" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32838285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

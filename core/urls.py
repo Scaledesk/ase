@@ -1,6 +1,6 @@
 from django.conf.urls import url
-from.import views
 from core.views import *
+from.import views
 
 		# from django.conf.urls import patterns, include, url
 
