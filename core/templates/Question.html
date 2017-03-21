@@ -24,8 +24,9 @@
     </div>
 </section>
 <div id="member-profile-section">
-
     <div class="container">
+            {{ msg }}
+
   <form action="/question/" method="post" id="register-form" enctype="multipart/form-data">
 
           {% csrf_token %}

@@ -348,8 +348,8 @@ def QuestionView(request):
            pro.save()
            ques.save()
 
-           # return render(request, "Question.html", {"msg": "Question added successfully.", "questionForm": questionForm,'category':category,'subcategory':subcategory})
-           return redirect('/dashboard/')
+           return render(request, "Question.html", {"msg": "Question added successfully.", "questionForm": questionForm,'category':category,'subcategory':subcategory})
+           # return redirect('/dashboard/')
        except Exception as e:
 
         return render(request, "Question.html",{"msg": e, "questionForm": questionForm,'category':category,'subcategory':subcategory})
@@ -615,46 +615,36 @@ def mailSend(request):
 
 @login_required(login_url="/login/")
 def Search(request):
-    if request.method == "POST":
-        type = request.POST['select_type']
+        if request.method == "POST":
+            type = request.POST['select_type']
 
-        search = request.POST['search']
-        # pprint(type)
-        # pprint(search)
+            search = request.POST['search']
+            # pprint(type)
+            # pprint(search)
 
-        if type=="user":
+            if type=="user":
 
-            # pr = Profile.objects.all()
-            # for term in search.split():
-            #     qs = pr.filter(companyName__icontains=term )
-            # return qs
-            # searchData = Profile.objects.search(search, operator="or")
-            # pprint(qs)
-            searchData=Profile.objects.filter(companyName__startswith=search)
-            # pprint(searchData)
-            # import ipdb;  ipdb.set_trace()
+                searchData=Profile.objects.filter(companyName__startswith=search)
+                if searchData:
+                  return render(request, "memberList.html", {"profile": searchData})
+                else:
+                  return render(request, "memberList.html", {"profile": searchData,"result":"0 results","result1":"Your search returned no matches."})
+            else:
 
-            return render(request, "memberList.html", {"profile": searchData})
-        else:
+                questions=[]
+            for q in Question.objects.filter(question__startswith=search):
+                questions.append({
+                  "profileName":q.profile.companyName,
+                  "profileImage":q.profile.profileImage,
+                  "profile_id":q.profile.pk,
+                  "question":q.question,
+                  "questionId":q.id
+                  })
 
-            # questionData = Question.objects.all()
-            # searchData=Profile.objects.filter(companyName__startswith=search)
+                 # pprint(questions)
+                return render(request, "questionList.html", {"questionData": questions})
 
-            # questionData=Question.objects.filter(question__startswith=search)
-             questions=[]
-        for q in Question.objects.filter(question__startswith=search):
-            questions.append({
-              "profileName":q.profile.companyName,
-              "profileImage":q.profile.profileImage,
-              "profile_id":q.profile.pk,
-              "question":q.question,
-              "questionId":q.id
-              })
-       
-             # pprint(questions)
-            return render(request, "questionList.html", {"questionData": questions})
-
-    return render (request,"index.html")
+        return render (request,"Searcherror.html")
 
 @login_required(login_url="/login/")
 def QuestionList(request):

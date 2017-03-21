@@ -223,7 +223,9 @@ nav ul{
     margin: 15px 0;
     color: #fff;
 }
-
+.custom-nav ul li:nth-child(9) ul.dropdown-menu a{
+    margin:0px !important;
+}
 
 .search-container{
     position: absolute;

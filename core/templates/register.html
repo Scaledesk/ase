@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
+    {% load staticfiles %}
+<script src="{% static 'js/state.js' %}"></script>
 
 <!--///////////////////////////////////////////////////////////////////////////////////
                                   Sign up Section
@@ -12,7 +14,7 @@
         <br>
 
         <div class="container">
-<form action="/register/" method="POST" id="form" enctype="multipart/form-data" onsubmit="return formValidation()">
+<form action="/register/" method="POST" id="form" enctype="multipart/form-data" onsubmit="return formValidation(this)">
                     {% csrf_token %}
 
 
@@ -95,14 +97,18 @@
                         </div>
 
                         <div class="row">
+                                 <div id="selection">
+
                             <div class="col-md-6">
 
                         <div class="form-group">
-                            <label class="p-heading"  for="city1">City</label>
-                            {{register.city}}
-                             <div id="id_cityError"></div>
+                            <label class="p-heading"  for="city1"> State</label>
+{#                            {{register.city}}#}
+{#                             <div id="id_cityError"></div>#}
+                             <select id="listBox" onchange='selct_district(this.value)' name="state"></select>
 
-  
+                                        <div id="id_stateError"></div>
+
                             <!--<input type="text" name="city" class="form-control" id="city1" placeholder="City">-->
                         </div>
                             </div>
@@ -110,15 +116,25 @@
                             <div class="col-md-6">
 
                         <div class="form-group">
-                            <label class="p-heading"  for="State1">State</label>
-                            {{register.state}}
-                            <div id="id_stateError"></div>
+                            <label class="p-heading"  for="State1">City</label>
+{#                            {{register.state}}#}
+                                     <select id='secondlist' name="city"></select>
+
+                                    <div id="id_cityError"></div>
+{#      </div>#}
+                               <div id="dumdiv">
+                               <a id="dum"></a>
+                                  </div>
+
+
 
  
                             <!--<input type="text" name="state" class="form-control" id="State1" placeholder="State">-->
                         </div>
-
                             </div>
+                            </div>
+
+
                         </div>
 
                     </div>
@@ -322,33 +338,26 @@
 
 <script type="text/javascript">
 
-//    $( "form" ).submit(function( event ) {
-//   if ( $( "input:first" ).val() === "" ) {
-//     $( "span" ).text( "Validated..." ).show();
-//     return;
-//   }
- 
-//   $( "span" ).text( "Not valid!" ).show().fadeOut( 1000 );
-//   event.preventDefault();
-// });
   
 function formValidation(obj){
-
+{#alert(124554);#}
   var id_needSupport      =document.getElementById('id_needSupport').value;
   var id_provideSupport   =document.getElementById('id_provideSupport').value;
   var id_profileImage     =document.getElementById('id_profileImage').value;
   var id_industry         =document.getElementById('id_industry').value;
   var id_website          =document.getElementById('id_website').value;
   var id_founderCofounder =document.getElementById('id_founderCofounder').value;
-  var id_state            =document.getElementById('id_state').value;
-  var id_city             =document.getElementById('id_city').value;
+  var id_state            =document.getElementById('listBox').value;
+  var id_city             =document.getElementById('secondlist').value;
   var id_pincode          =document.getElementById('id_pincode').value;
   var id_mobile           =document.getElementById('id_mobile').value;
   // var id_profileType      =document.getElementById('id_profileType').value;
   var id_password         =document.getElementById('id_password').value;
   var id_designatePerson  =document.getElementById('id_designatePerson').value;
   var id_companyName      =document.getElementById('id_companyName').value;
-   
+{#   alert(1);#}
+    var pin_ex=/^[1-9][0-9]{5}$/;
+    var mobile_ex=/^[0]?[789]\d{9}$/;
 if (id_designatePerson !== ""){
     if(id_password !== ""){
      if(id_companyName !== ""){
@@ -357,8 +366,10 @@ if (id_designatePerson !== ""){
            if(id_profileImage !== ""){
             if(id_provideSupport !== ""){
              if(id_needSupport !== ""){
-              if(id_mobile !== ""){
-                if(id_pincode !== ""){
+              if(mobile_ex.test(id_mobile)){
+{#                  alert(13245466513216545);#}
+                if(pin_ex.test(id_pincode)){
+                    aler(324654)
                  if(id_city !== ""){
                     if(id_state !==""){
                       return true;
@@ -473,35 +484,6 @@ if (id_designatePerson !== ""){
     document.getElementById("id_designatePersonError").innerHTML = "<span style='color:red;'>Please file in this field. </span>";
        return false;
    }
-
-  //   <div id="id_needSupportError"></div>
-  //   <div id="id_provideSupportError"></div>
-  //     <div id="id_profileImageError"></div>
-
-  // <div id="id_industryError"></div>
-
-  // <div id="id_websiteError"></div>
-
-  // <div id="id_founderCofounderError"></div>
-
-  // <div id="id_stateError"></div>
-
-  // <div id="id_cityError"></div>
-
-  // <div id="id_pincodeError"></div>
-
-  // <div id="id_mobileError"></div>
-
-  // <div id="id_profileTypeError"></div>
-
-  // <div id="id_passwordError"></div>
-  // <div id="id_designatePersonError"></div>
-
-  // <div id="id_companyNameError"></div>
-
-
-
-
 
 
 
