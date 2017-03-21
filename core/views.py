@@ -532,7 +532,13 @@ def QuestionDelete(request, id):
     
              try:
                    questionData.delete()
-                   return redirect('/questionList/')
+
+                   questions = Question.objects.filter(
+                       profile=Profile.objects.get(userdipp=UserDipp.objects.get(user=request.user)))
+
+                   return render(request, "UserQuestionList.html", {"questionData": questions,'msg':"Question successfully deleted."})
+
+                   # return redirect('/questionList/',{'msg':"Question successfully deleted."})
 
              except Exception as e:
                   return redirect('/questionList/')
@@ -652,7 +658,6 @@ def QuestionList(request):
 
      questions=Question.objects.filter(profile=Profile.objects.get(userdipp=UserDipp.objects.get(user=request.user)))
 
-     pprint(questions) 
 
      return render(request, "UserQuestionList.html", {"questionData": questions})
 
