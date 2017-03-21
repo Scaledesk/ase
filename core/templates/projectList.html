@@ -1,0 +1,128 @@
+{% extends "base.html" %}
+{% block content %}
+{% load staticfiles %}
+ <section class="dashboard-update">
+    <div class="container">
+        <br>
+        <nav id="site-navigation" class="main-navigation" role="navigation">
+            <div class="nav-menu">
+                <ul>
+                    <li class="current_page_item active"><a href="/dashboard/" title="Home">Dashboard</a></li>
+                    <li class="page_item page-item-7"><a href="/setting/">Setting</a></li>
+
+                    <li class="page_item page-item-9"><a href="/project/">Add Project</a></li>
+                    <li class="page_item page-item-9"><a href="/question/">Add Question</a></li>
+                    <li class="page_item page-item-9"><a href="/questionList/">Question</a></li>
+                    <li class="page_item page-item-9"><a href="/projectslist/">Manage Projects</a></li>
+
+
+                </ul>
+            </div><!-- .nav-menu -->
+        </nav><!-- #site-navigation -->
+
+    </div>
+</section>
+
+
+<div class="card-profile">
+            <span class="text-center">{{msg}}</span>
+                    <div class="row">
+                        <div class="col-md-12">
+                    <p class="p-heading f-green text-center ">PROJECT/WORK</p>
+                        </div>
+                    </div>
+                    <br>
+{#                    {{projectData.brandName}}#}
+                         {% for data in project %}
+                             <div class="row">
+                        <div class="col-md-6">
+
+                            <div class="row">
+                                <div class="col-xs-2">
+                                    <img src="{{ data.logo }}" width="100%">
+
+                                </div>
+                                <div class="col-xs-10">
+                                    <p class="p-heading">{{ data.companyName }}</p>
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <p><span class="p-heading">Brand:</span>&nbsp;<span>{{ data.brandName }}</span></p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <p><span class="p-heading">Type of Business:</span>&nbsp;<span>{{ data.typeOfBusiness }}</span></p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                                <p><span class="p-heading">About the Product:</span>&nbsp;<span>{{ data.aboutProductCompany }}</span>&nbsp;
+                                                    <span class="f-green"><a href="{{ data.aboutProductCompany }}" download>Download</a></span></p>
+
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <p><span class="p-heading">Investor Deck:</span>&nbsp;<span>{{ data.investor }}</span>
+                                                &nbsp;<span class="f-green"><a href="{{ data.investor }}"download>Download</a></span></p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+                            <p class="p-heading">Description</p>
+
+                            <p>{{ data.description }}</p>
+
+                            <div class="row">
+                                <div class="col-xs-12"><p><i class="fa fa-external-link" aria-hidden="true"></i>&nbsp;
+                                    <a href="{{ data.url }}">{{data.url}}</a></p>
+
+
+                                </div>
+
+
+                            </div>
+                            <div class="row">
+
+                                <div class="col-xs-12">
+                                    <p> <i class="fa fa-caret-square-o-right" aria-hidden="true"></i>&nbsp;<a href="{{ data.videoLink }}">{{ data.videoLink }}</a></p>
+
+                                </div>
+
+                            </div>
+
+                           <div class="row">
+                               <div class="col-xs-12">
+                                   <a href="/projectdelete/{{ data.id }}/">Delete</a>/<a href="/projectupdate/{{ data.id }}/">Update</a>
+                               </div>
+                           </div>
+                        </div>
+
+
+
+
+                    </div>
+                         {% endfor %}
+                    <hr>
+                    <br>
+
+
+
+                </div>
+
+
+{% endblock %}

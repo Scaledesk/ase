@@ -304,7 +304,7 @@ def project(request):
               aboutProductCompany_url = fsss.url(aboutProductCompany)
 
 
-
+              pro.companyName=request.POST['companyName']
               pro.brandName = request.POST['brandName']
               pro.typeOfBusiness = request.POST['typeOfBusiness']
               pro.url = request.POST['url']
@@ -314,9 +314,9 @@ def project(request):
               pro.aboutProductCompany = aboutProductCompany_url
               pro.investor = investor_url
               pro.save()
-              return redirect("/dashboard/")
+              return render(request, "project.html", {"msg":"Project have been successfully added.", "profile": profileData, "projectForm": projectForm})
           except Exception as e:
-                return render(request, "project.html", {"msg":e ,"projectForm":projectForm})
+                return render(request, "project.html", {"msg":e ,"profile":profileData,"projectForm":projectForm})
 
     else :return render(request,"project.html",{"profile":profileData,"projectForm":projectForm})
 
@@ -597,7 +597,10 @@ def ProfileList(request):
     return render (request,"memberList.html",{"profile":profileData})
 
 
-
+@login_required(login_url="/login/")
+def ProjectList(request):
+    project=Project.objects.filter(profile=Profile.objects.get(userdipp=UserDipp.objects.get(user=request.user)))
+    return render (request,"projectList.html",{"project":project})
 @login_required(login_url="/login/")
 def ProfileDetails(request,id):
 
@@ -661,9 +664,77 @@ def QuestionList(request):
 
      return render(request, "UserQuestionList.html", {"questionData": questions})
 
+@login_required(login_url="/login/")
+def ProjectDelete(request, id):
+    project = Project.objects.get(pk=id)
+
+    if project:
+
+        try:
+            project.delete()
+
+            project = Project.objects.filter(
+                profile=Profile.objects.get(userdipp=UserDipp.objects.get(user=request.user)))
+            return render(request, "projectList.html", {"project": project,'msg':"Question successfully deleted."})
+
+            # return redirect('/questionList/',{'msg':"Question successfully deleted."})
+
+        except Exception as e:
+            return redirect('/projectslist/')
 
 
+    else:
+        return redirect('/projectslist/')
 
 
+@login_required(login_url="/login/")
+def ProjectUpdate(request, id):
+    projectData = Project.objects.get(pk=id)
+    projectForm = ProjectForm({"companyName":projectData.companyName,"brandName":projectData.brandName
+                                ,"typeOfBusiness":projectData.typeOfBusiness,"url":projectData.url,
+                                "description":projectData.description,"videoLink":projectData.videoLink
+                               })
 
 
+    if request.method == "POST":
+
+        try:
+
+            pro = profileData
+            pro.profile = profileData
+            # pprint(profileData.companyName)
+            logo = request.FILES['logo']
+            investor = request.FILES['investor']
+            aboutProductCompany = request.FILES['aboutProductCompany']
+
+            fs = FileSystemStorage()
+
+            logo = fs.save(logo.name, logo)
+            logo_url = fs.url(logo)
+            fss = FileSystemStorage()
+
+            investor = fss.save(investor.name, investor)
+            investor_url = fss.url(investor)
+
+            fsss = FileSystemStorage()
+
+            aboutProductCompany = fsss.save(aboutProductCompany.name, aboutProductCompany)
+            aboutProductCompany_url = fsss.url(aboutProductCompany)
+
+            pro.brandName = request.POST['brandName']
+            pro.typeOfBusiness = request.POST['typeOfBusiness']
+            pro.url = request.POST['url']
+            pro.description = request.POST['description']
+            pro.logo = logo_url
+            pro.videoLink = request.POST['videoLink']
+            pro.aboutProductCompany = aboutProductCompany_url
+            pro.investor = investor_url
+            pro.save()
+            return render(request, "projectUpdate.html", {"msg": "Project have been successfully updated", "projectForm": projectForm})
+        except Exception as e:
+            projectForm = ProjectForm(request.POST.copy())
+            return render(request, "projectUpdate.html", {"msg": e, "projectForm": projectForm})
+
+        return
+    else:
+     return render(request,"projectUpdate.html",{"projectForm":projectForm})

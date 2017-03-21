@@ -358,11 +358,13 @@ function formValidation(obj){
 {#   alert(1);#}
     var pin_ex=/^[1-9][0-9]{5}$/;
     var mobile_ex=/^[0]?[789]\d{9}$/;
+    var webRex = /^(http[s]?:\/\/){0,1}(www\.){0,1}[a-zA-Z0-9\.\-]+\.[a-zA-Z]{2,5}[\.]{0,1}/;
+
 if (id_designatePerson !== ""){
     if(id_password !== ""){
      if(id_companyName !== ""){
       if(id_founderCofounder !== ""){
-        if(id_website !== ""){
+        if(webRex.test(id_website)){
            if(id_profileImage !== ""){
             if(id_provideSupport !== ""){
              if(id_needSupport !== ""){

@@ -30,6 +30,8 @@ urlpatterns = [
     url(r'^profiledetails/(?P<id>[0-9]+)/', ProfileDetails),
     url(r"^mailSend/", mailSend),
     url(r"^search/", Search),
-
+    url(r"^projectslist",ProjectList),
+    url(r'^projectdelete/(?P<id>[0-9]+)/', ProjectDelete, name='projectdelete'),
+    url(r'^projectupdate/(?P<id>[0-9]+)/', ProjectUpdate, name='projectupdate'),
 
 ]

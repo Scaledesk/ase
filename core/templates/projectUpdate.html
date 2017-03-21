@@ -30,12 +30,12 @@
 <div id="member-profile-section">
 
  <div class="container">
-          {{msg}}
+     <samp class="text-center">{{msg}}</samp>
  <div class="card-profile">
                     <label class="f-or"> Project / Works</label>
 
 
-  <form action="/project/" method="post" id="register-form" enctype="multipart/form-data" onsubmit="return formValidation()">
+  <form action="/projectupdate/{{ projectForm.id }}" method="post" id="register-form" enctype="multipart/form-data" onsubmit="return formValidation()">
       {% csrf_token %}
 
                 <div class="form-group">
@@ -168,7 +168,7 @@ $(document).ready(function(){
 <script type="text/javascript">
     
 function formValidation(obj) {
-    {#    alert(45);#}
+    {#    alert();45#}
 
     var id_url = document.getElementById('id_url').value;
     var id_description = document.getElementById('id_description').value;
@@ -202,7 +202,10 @@ function formValidation(obj) {
         return false;
 
     }
+
+
 }
+
 </script>
 
 
