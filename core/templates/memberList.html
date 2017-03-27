@@ -15,16 +15,28 @@
 <form>
                         <div class="row">
                             <div class="col-md-12">
-                        <div class="input-group" style="width:100%;margin: 25px 0 0 0;">
+                        <div class="input-group" style="    width: 85%;margin: 10px auto 3px auto;">
                             <div action="/search/" method="post">
                                    {% csrf_token %}
                                 <div class="row">
-                                    <div class="col-xs-12" style="
-    position: relative;">
-                                        <input type="text" class="form-control search-control" name="search" placeholder="Search your company">
-                                </div>
+                                    <div class="col-xs-12" style="position: relative;">
 
-                                    <button type="submit" class="btn btn-search"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                        <input type="text" class="form-control search-control" name="search" placeholder="Search your company">
+
+
+                                    </div>
+
+                                  <div class="search-element">
+
+                                    <select name="select_type" class="select-box">
+                                        <option value="user">User</option>
+                                        <option value="question">Question</option>
+
+                                    </select>
+
+                                    <button type="submit" class="btn btn-search">&nbsp;&nbsp;<i class="fa fa-search" aria-hidden="true"></i></button>
+
+                                  </div>
 
                                 </div>
                             </div>
@@ -35,12 +47,6 @@
 
 
 </div>
-
-                                        <select name="select_type">
-                                 <option value="user">User</option>
-                                 <option value="question">Question</option>
-
-                             </select>
 
                             </form>
 
