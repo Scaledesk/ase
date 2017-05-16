@@ -19,7 +19,33 @@
     <!--<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">-->
         <link href="https://fonts.googleapis.com/css?family=Istok+Web:400,400i,700,700i" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="{ % static 'apple-touch-icon.png' %}">
+<!--    <link rel="apple-touch-icon" href="{ % static 'apple-touch-icon.png' %}">-->
+ <!--   fevicon start-->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="{ % static 'img/fevi/apple-icon-57x57.png' %}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{ % static 'img/fevi/apple-icon-60x60.png' %}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{ % static 'img/fevi/apple-icon-72x72.png' %}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{ % static 'img/fevi/apple-icon-76x76.png' %}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{ % static 'img/fevi/apple-icon-114x114.png' %}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{ % static 'img/fevi/apple-icon-120x120.png' %}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{ % static 'img/fevi/apple-icon-144x144.png' %}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{ % static 'img/fevi/apple-icon-152x152.png' %}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{ % static 'img/fevi/apple-icon-180x180.png' %}">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{ % static 'img/fevi/android-icon-192x192.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{ % static 'img/fevi/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{ % static 'img/fevi/favicon-96x96.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{ % static 'img/fevi/favicon-16x16.png' %}">
+    <link rel="manifest" href="{ % static 'img/fevi/manifest.json' %}">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{ % static 'img/fevi/ms-icon-144x144.png' %}">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+  <!--  fevicon end-->
+
+
+
 
 1    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
     <style>
@@ -63,7 +89,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand custom-brand" href="index.html"><img src="{% static 'img/logo.png' %}" class="h-logo" alt="Logo"></a>
+                <a class="navbar-brand custom-brand" href="index.html"><img src="{% static 'img/logo.png' %}" class="h-logo" alt="Logo" style="
+    height: 80px;"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -274,9 +301,9 @@
 
 
             <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="m-t-40" style="padding: 94px 30px 35px 0px;">
+                <div class="m-t-40" style="padding: 94px 30px 35px 30px;">
                     <div class="img-container" style="
-    left: 46px;">
+    left: 25px;">
                         <h2 class="h2-custom bg-darkgreen f-w">
                             <span class="f-y">who </span><br>we are</h2>
                     </div>
@@ -312,7 +339,7 @@
                 <div class="row">
 
                     <div class="col-md-8 col-md-offset-4 ">
-                        <div class="m-t-40" style="padding: 94px 30px 35px 0px;">
+                        <div class="m-t-40" style="padding: 94px 30px 35px 25px;">
                         <div class="img-container">
                             <h2 class="h2-custom bg-grey">
                                 <span class="f-y">who </span><br>we are</h2>
@@ -376,7 +403,7 @@
 
 <section id="Member-section">
     <div class="bg-darkgreen">
-        <div class="">
+
             <div class="row">
 
 
@@ -435,13 +462,12 @@
 
                 <div class="col-md-5 col-sm-5 col-xs-12">
                     <div class="m-t-40" style="padding: 94px 30px 35px 0px;">
-                        <div class="img-container" style="
-    left: 46px;">
+                        <div class="img-container">
                             <h2 class="h2-custom bg-darkgreen f-w">
                                 <span class="f-y">who </span><br>we are</h2>
                         </div>
 
-                        <div class="p-20">
+                        <div class="p-20" style=" width: 424px;max-width: 100%;">
 
                             <p class="f-w text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aut, autem                               beatae commodi consequuntur delectus doloribus eius, eligendi error est ipsa nisi                           obcaecati officiis quos recusandae sed temporibus voluptatibus!</p>
 
@@ -451,7 +477,7 @@
                 </div>
 
             </div>
-        </div>
+
     </div>
 
 </section>

@@ -184,6 +184,8 @@ nav ul{
 .custom-nav{
     background-color: #ffffff;
 
+    min-height: 72px;
+
 }
 
 .custom-nav ul li a{
@@ -226,6 +228,13 @@ nav ul{
     margin:0px !important;
 }
 
+
+.custom-nav .navbar-header button.navbar-toggle{
+
+    padding: 12px 12px;
+    margin-top: 18px;
+
+}
 .search-container{
     position: absolute;
     top: 0;
@@ -427,7 +436,9 @@ nav ul{
     left: 8%;
 }
 
-
+.bg-darkgreen .row .col-md-5 .m-t-40 div.img-container{
+    left:35px;
+}
 
 
 
@@ -975,3 +986,19 @@ theme colors*/
 }
 
 /*themecolors end*/
+
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+
+    .img-container{
+        width:210px;
+    }
+
+    .bg-darkgreen .row .col-md-5 .m-t-40 div.p-20{
+        left:35px;
+    }
+
+
+}
